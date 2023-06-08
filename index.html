@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Voleibol Camp de Túria</title>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="flickity.css">
+  <script src="flickity.pkgd.min.js"></script>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">Club Voleibol Camp de Turia</div>
+    <nav>
+      <a href="inicio.html">Inicio</a>
+      <a href="inscripciones.html">Inscripciones</a>
+      <a href="campus.html">Campus</a>
+      <a href="historia.html">Historia</a>
+      <a href="equipos.html">Equipos</a>
+      <a href="sedes.html">Sedes</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+	<section id="inicio">
+    <h1>Bienvenidos al club de voleibol de la Comarca del Camp de Túria</h1>
+    <p>¡Donde se juntan el esfuerzo, la igualdad y la cooperación!</p>
+<div class="slideshow">
+  <div class="carousel-cell"><img src="imagen1.jpg" alt="Imagen 1"></div>
+  <div class="carousel-cell"><img src="imagen2.jpg" alt="Imagen 2"></div>
+  <div class="carousel-cell"><img src="imagen3.jpg" alt="Imagen 3"></div>
+  <div class="carousel-cell"><img src="imagen4.jpg" alt="Imagen 4"></div>
+  <div class="carousel-cell"><img src="imagen5.jpg" alt="Imagen 5"></div>
+  <div class="carousel-cell"><img src="imagen6.jpg" alt="Imagen 6"></div>
+  <div class="carousel-cell"><img src="imagen7.jpg" alt="Imagen 7"></div>
+</div>
+   <hr>
+    <div class="motivational-speech">
+      <h2>La cultura del esfuerzo y la cooperación</h2>
+      <p>El Club Voleibol Camp de Túria se enorgullece de promover y desarrollar el voleibol en las poblaciones del Camp de Túria. Nuestro club se rige por los valores del esfuerzo, la igualdad y la cooperación. Creemos que el voleibol es más que un deporte, es una forma de vida. En cada partido, entrenamiento y competición, fomentamos la importancia del esfuerzo constante, el trabajo en equipo y la solidaridad. Queremos que nuestros jugadores adquieran habilidades tanto dentro como fuera de la cancha, aprendiendo valores que les serán útiles en su desarrollo personal y profesional.</p>
+      <p>¡Únete a nosotros y forma parte de nuestra familia! Juntos, construiremos un futuro brillante para el voleibol en la comarca de Camp de Túria.</p>
+    </div>
+  </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var carousel = document.querySelector('.slideshow');
+      var flickity = new Flickity(carousel, {
+        autoPlay: 5000,
+        prevNextButtons: true,
+        pageDots: true
+      });
+    });
+  </script>
+    <footer>
+        <div class="logo-footer">
+            <img src="logo.png" alt="Logo del Club">
+        </div>
+        
+        <div class="rights">
+            <p>&copy; 2023 Club Voleibol Camp de Túria. Todos los derechos reservados.</p>
+        </div>
+        
+        <div class="contact">
+            <a href="https://www.instagram.com/cv_campdeturia"><img src="instagram_logo.png" alt="Logo de Instagram"></a>
+            <a href="mailto:cvcampdeturia@gmail.com"><img src="gmail_logo.png" alt="Logo de Gmail"></a>
+        </div>
+    </footer>
+</body>
+</html>
